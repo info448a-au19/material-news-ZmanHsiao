@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:textSize="30sp"
+            android:fontFamily="@font/roboto"
+            android:id="@+id/headline"
+            style="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            tools:context=".ItemDetailFragment" />
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/item_detail"
+            android:textSize="18sp"
+            android:fontFamily="@font/jomolhari"
+            style="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            tools:context=".ItemDetailFragment" />
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/source"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto"
+            style="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            tools:context=".ItemDetailFragment" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
